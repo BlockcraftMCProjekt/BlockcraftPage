@@ -74,3 +74,47 @@
 
  </body>
 </html>
+
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hintergrundbild ab bestimmter Stelle</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      padding: 100px;
+      background-color: #333;
+      color: white;
+      text-align: center;
+    }
+
+    .main-content {
+      padding: 100px;
+      color: white;
+      background-image: url('dein-bild.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 500px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Oben ohne Bild</h1>
+    <p>Dieser Bereich hat nur eine Farbe.</p>
+  </div>
+
+  <div class="main-content">
+    <h2>Hier beginnt der Bereich mit dem Hintergrundbild</h2>
+    <p>Dieser Abschnitt zeigt das Bild im Hintergrund.</p>
+  </div>
+
+</body>
+</html>
